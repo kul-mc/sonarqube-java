@@ -19,7 +19,7 @@ public class UserValidator implements Validator {
 		return User.class.equals(aClass);
 	}
 
-	public static String USERNAME="username";
+	private static final String USERNAME="username";
 
 	@Override
 	public void validate(Object o, Errors errors) {
